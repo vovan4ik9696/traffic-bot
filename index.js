@@ -56,12 +56,7 @@ const start = () => {
       await bot.sendMessage(chatId, 'Спасибо, что оставили заявку на заказ. Мы свяжемся с вами в ближайшее время!')
       return await bot.sendMessage(UraChatId, 'Новый заказ: @' + msg.chat.username + '\nТекст:\n' + text)
     }
-
-
   })
-
-
-
 }
 
 start()
